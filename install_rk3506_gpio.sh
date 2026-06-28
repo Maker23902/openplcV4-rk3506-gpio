@@ -28,8 +28,8 @@
 set -eu
 
 PLUGIN_NAME="rk3506_gpio"
-PLUGIN_FILE="rk3506_gpio_plugin.py"
-GITHUB_RAW="https://raw.githubusercontent.com/Microdesys/openplcV4-rk3506-gpio/main"
+PLUGIN_FILE="rk3506_gpio.py"
+GITHUB_RAW="https://github.com/Maker23902/openplcV4-rk3506-gpio"
 
 # Kernel 6.1 + libgpiod v2 — chip device path prefix
 GPIOCHIP_PATH="/dev/gpiochip1"
