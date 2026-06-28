@@ -29,7 +29,7 @@ set -eu
 
 PLUGIN_NAME="rk3506_gpio"
 PLUGIN_FILE="rk3506_gpio.py"
-GITHUB_RAW="https://github.com/Maker23902/openplcV4-rk3506-gpio"
+GITHUB_RAW="https://raw.githubusercontent.com/Maker23902/openplcV4-rk3506-gpio/refs/heads"
 
 # Kernel 6.1 + libgpiod v2 — chip device path prefix
 GPIOCHIP_PATH="/dev/gpiochip1"
